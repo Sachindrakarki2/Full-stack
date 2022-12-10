@@ -1,0 +1,32 @@
+### get all users
+
+GET http://localhost:8000/users
+
+### Post all users
+
+POST http://localhost:8000/users 
+Content-Type: application/json  
+
+{
+    "fName":"Sach222indra",
+    "lName":"K22",
+    "email":"sachindrak22ark3333i2@gmai.com",
+    "password":"1232222"
+}
+
+### update all users
+
+PUT http://localhost:8000/users 
+Content-Type: application/json  
+
+{
+    "_id":"6393d58652da4eefa009feb7",
+    
+    "password":"xyz"
+}
+
+
+
+### delete all users
+
+DELETE http://localhost:8000/users/6393d90b9bba341e9a26470c
